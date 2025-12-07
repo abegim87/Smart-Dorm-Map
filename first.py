@@ -7,7 +7,7 @@
 #  • Persistent data (room_status.txt)
 #  • Occupancy counters
 #  • File / Help menu
-#  • Blurred background image (via Pillow)
+#  • background image (via Pillow)
 #  • Balanced 2x2 grid layout (A1,A2,B1,B2)
 # ---------------------------------------------------
 
@@ -19,7 +19,7 @@ import os
 
 # ---------- Configuration ----------
 STATUS_FILE = "room_status.txt"
-BACKGROUND_IMAGE = "uca_dorm_blurred.jpg"
+BACKGROUND_IMAGE = "uca dorm.jpg"
 
 rooms = {
     "A1": ["MV Lounge 1","MV Lounge 2","Study Room 1","Study Room 2","TV Lounge 1","TV Lounge 2"],
@@ -218,7 +218,7 @@ def show_summary():
 def about():
     messagebox.showinfo("About",
                         "Smart Dorm Map v2.2\nDeveloped by Team Maahnoor & Co\n"
-                        "UCA Dormitory Space Monitoring Project")
+                        "UCA Dormtory Space Monitoring Project")
 
 menu = tk.Menu(root)
 file_menu = tk.Menu(menu, tearoff=0)
@@ -234,4 +234,5 @@ menu.add_cascade(label="Help", menu=help_menu)
 root.config(menu=menu)
 
 root.mainloop()
+
 
