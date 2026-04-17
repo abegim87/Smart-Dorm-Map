@@ -1,5 +1,7 @@
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/c46708ea-f5fa-48ff-a2b2-cdc6130247f3" />
 Smart Dorm Map
+Contributors:
+This was a group project for Fundamentals of Programming Course. 
 🏫 Project Overview
 
 Smart Dorm Map is a Python-based desktop application designed to help university dorm residents easily view and reserve shared spaces such as study rooms, Mountain View lounges, and TV lounges.
